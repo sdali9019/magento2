@@ -24,4 +24,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: sdali9019/magento2.4.6:latest
+        tags: |
+          sdali9019/magento2:latest
+          sdali9019/magento2:${{ github.ref_name }}
