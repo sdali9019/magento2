@@ -24,4 +24,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourdockerhubusername/magento2.4.6:latest
+        tags: sdali9019/magento2.4.6:latest
